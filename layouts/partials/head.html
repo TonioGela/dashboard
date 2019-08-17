@@ -1,0 +1,17 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    {{ hugo.Generator }}
+    
+    {{ with .Site }}
+        <title>{{ .Params.name }}</title>
+        <link rel="canonical" href="{{ .BaseURL }}">
+    {{ end }}
+
+    <!-- Css -->
+    {{ $googleFont := resources.Get "scss/googleFonts.scss" | resources.ExecuteAsTemplate "googleFontsCompiled.scss" . }}   
+    {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "styleCompiled.scss" . }}
+    {{ $styles := slice $googleFont $style | resources.Concat "totalStyle.scss" | toCSS | minify | fingerprint "sha512" }}
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+</head>

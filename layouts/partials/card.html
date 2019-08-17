@@ -1,0 +1,9 @@
+<div class="card">
+    <picture>
+        {{ $imageName := $.img | printf "%s/%s" "images" }}
+        {{ $image := resources.Get $imageName | fingerprint "sha512" }}
+        <img src="{{ $image.Permalink }}">
+    </picture>
+    <div class="cardtitle">{{ .title }}</div>
+    <a href="{{ .url }}"></a>
+</div>

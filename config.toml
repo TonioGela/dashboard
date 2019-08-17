@@ -1,0 +1,10 @@
+baseurl = "https://home.toniogela.dev/"
+languageCode = "en"
+title = "HomePage"
+disableKinds = ["taxonomy", "taxonomyTerm", "sitemap", "RSS", "404", "page", "robotsTXT", "section", "page"]
+
+[params]
+    name = "Homepage"
+    #background = "background.webp"
+    favicon = "favicon.png"
+    greekFonts = false

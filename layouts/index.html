@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}" dir="ltr">
+{{ partial "head.html" . }}
+
+<body>
+    {{ with .Site.Data.cards }}
+        {{ range where .section "enable" true}}
+            {{ partial "container.html" . }}
+        {{ end }}
+    {{ end }}
+</body>
+
+</html>
