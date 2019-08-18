@@ -19,7 +19,7 @@
 
     --section-title-color: white;
     --section-title-background-color: #f4f4f400;
-    --background-color: #799496;
+    --background-color: #a64b4d;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
     flex-flow: column nowrap;
     font-family: 'Fira Sans', sans-serif;
     min-height: 100vh;
-    background: url("/food.svg") repeat, var(--background-color);
+    background: url("/background.svg") repeat, var(--background-color);
 }
 
 .container {

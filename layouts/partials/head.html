@@ -8,6 +8,24 @@
         <link rel="canonical" href="{{ .BaseURL }}">
     {{ end }}
 
+    <link rel="manifest" href="/manifest.json">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="196x196" href="/favicon/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="/favicon/favicon-160.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon/favicon-64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#a64b4d">
+    <meta name="application-name" content="Dashboard">
+    <meta name="apple-mobile-web-app-title" content="Dashboard">
+    <meta name="theme-color" content="#a64b4d"/>
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/favicon/favicon-310.png">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+
     <!-- Css -->
     {{ $googleFont := resources.Get "scss/googleFonts.scss" | resources.ExecuteAsTemplate "googleFontsCompiled.scss" . }}   
     {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "styleCompiled.scss" . }}

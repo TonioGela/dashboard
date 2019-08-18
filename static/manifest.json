@@ -1,0 +1,21 @@
+{
+    "name": "Dashboard",
+    "short_name": "Dashboard",
+    "icons": [
+        {
+            "src": "/favicon/favicon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon/favicon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "background_color": "#ed7547",
+    "display": "fullscreen",
+    "scope": "/",
+    "theme_color": "#a64b4d"
+}

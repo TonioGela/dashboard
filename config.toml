@@ -1,7 +1,7 @@
 baseurl = "https://dashboard.toniogela.dev/"
 languageCode = "en"
 title = "HomePage"
-disableKinds = ["taxonomy", "taxonomyTerm", "sitemap", "RSS", "404", "page", "robotsTXT", "section", "page"]
+disableKinds = ["taxonomy", "taxonomyTerm", "sitemap", "RSS", "404", "page", "robotsTXT", "section"]
 
 [params]
     name = "Dashboard"
