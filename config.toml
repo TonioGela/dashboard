@@ -5,5 +5,14 @@ disableKinds = ["taxonomy", "taxonomyTerm", "sitemap", "RSS", "404", "page", "ro
 
 [params]
     name = "Dashboard"
-    favicon = "favicon.png"
+    description = "TonioGela's Personal Dashboard"
+    author = "Antonio Gelameris"
     greekFonts = false
+
+    backgroundColor = "#a64b4d"
+    accentColor = "black"
+    sectionTitleColor = "black"
+    sectionTitleBackgroundColor = "#f4f4f4cc"
+    cardBackgroundColor = "white"
+    cardTitleColor = "black"
+    bordersColor = "black"

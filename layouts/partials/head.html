@@ -6,6 +6,9 @@
     {{ with .Site }}
         <title>{{ .Params.name }}</title>
         <link rel="canonical" href="{{ .BaseURL }}">
+        <meta name="title" content="{{ .Params.name }}">
+        <meta name="description" content="{{ .Params.description }}">
+        <meta name="author" content="{{ .Params.author }}">
     {{ end }}
 
     <link rel="manifest" href="/manifest.json">
