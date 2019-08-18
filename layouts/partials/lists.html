@@ -1,0 +1,15 @@
+<section>
+    <div class="titles">
+        {{ range where .section "enable" true}}
+            <label class="title" for="{{ .id }}">{{ .title }}</label>
+        {{ end }}
+    </div>
+    {{ range where .section "enable" true}}
+        <input type="radio" name="links" id="{{ .id }}" {{ if .checked }}checked{{ end }}>
+        <div class="list" id="{{ .id }}-list">
+            {{ range .element }}
+                <a href="{{ .url }}" target="_blank" title="{{ .title }}" aria-label="{{ .title }}">{{ .title }}</a>
+            {{ end }}
+        </div>
+    {{ end }}
+</section>

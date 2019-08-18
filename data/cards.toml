@@ -3,9 +3,14 @@ enable = true
 title = "Personal"
 
 [[section.element]]
+title = "Slack"
+img = "slack.svg"
+url = "https://app.slack.com/client"
+
+[[section.element]]
 title = "Gmail"
 img = "gmail.svg"
-url = "http://www.gmail.com"
+url = "https://www.gmail.com"
 
 [[section.element]]
 title = "Twitter"
@@ -13,9 +18,39 @@ img = "twitter.svg"
 url = "https://twitter.com"
 
 [[section.element]]
+title = "Whatsapp"
+img = "whatsapp.svg"
+url = "https://web.whatsapp.com"
+
+[[section.element]]
+title = "Telegram"
+img = "telegram.svg"
+url = "https://web.telegram.org"
+
+[[section.element]]
 title = "GitLab"
 img = "gitlab.svg"
 url = "https://gitlab.com"
+
+[[section.element]]
+title = "GitHub"
+img = "github.svg"
+url = "https://github.com"
+
+[[section.element]]
+title = "Linkedin"
+img = "linkedin.svg"
+url = "https://www.linkedin.com"
+
+[[section.element]]
+title = "Netlify"
+img = "netlify.svg"
+url = "https://app.netlify.com/teams/toniogela/sites"
+
+[[section.element]]
+title = "Udemy"
+img = "udemy.svg"
+url = "https://www.udemy.com"
 
 [[section.element]]
 title = "Netflix"
@@ -62,76 +97,12 @@ title = "La Repubblica"
 img = "repubblica.svg"
 url = "https://www.repubblica.it"
 
-[[section]]
-enable = true
-title = "Nokia"
+[[section.element]]
+title = "RaiNews24"
+img = "raiNews.svg"
+url = "http://www.rainews.it/dl/rainews/live/ContentItem-3156f2f2-dc70-4953-8e2f-70d7489d4ce9.html"
 
 [[section.element]]
-title = "Nokia Mail"
-img = "mail.svg"
-url = "https://outlook.office.com/owa"
-
-[[section.element]]
-title = "Teams"
-img = "teams.svg"
-url = "https://teams.microsoft.com"
-
-[[section.element]]
-title = "Kanban Board"
-img = "jira.svg"
-url = "https://jiradc.int.net.nokia.com/secure/RapidBoard.jspa?projectKey=SMIADNA&rapidView=17273"
-
-[[section.element]]
-title = "Confluence"
-img = "confluence.svg"
-url = "https://confluence.int.net.nokia.com"
-
-[[section.element]]
-title = "Dna OneDrive"
-img = "onedrive.svg"
-url = "https://nokia-my.sharepoint.com/personal/ihor_kaharlichenko_ext_nokia_com/_layouts/15/onedrive.aspx?csf=1&e=jdefJ4&cid=46809bfc%2D8abf%2D4abb%2Da892%2Dc9d8937c89d3&FolderCTID=0x012000DAB65A4DCA1EA0448DCE4BA3C9BBACBF&viewid=92890af6%2D895f%2D473d%2Dbd09%2Db29b3c3a8fcd&id=%2Fpersonal%2Fihor%5Fkaharlichenko%5Fext%5Fnokia%5Fcom%2FDocuments%2FDNA"
-
-[[section.element]]
-title = "GitLab Espoo 1"
-img = "gitlab.svg"
-url = "https://gitlabe1.ext.net.nokia.com"
-
-[[section.element]]
-title = "GitLab Espoo 2"
-img = "gitlab.svg"
-url = "https://gitlabe2.ext.net.nokia.com"
-
-[[section.element]]
-title = "Dna Nifi Dev"
-img = "nifi.svg"
-url = "https://ava-europe-espoo-dev.escloud.dynamic.nsn-net.net/nifi-11867cd6-d328-4296-a8a0-d5ae100b9284/nifi"
-
-[[section.element]]
-title = "Dna Nifi Demo"
-img = "nifi.svg"
-url = "https://ava-europe-espoo-dev.escloud.dynamic.nsn-net.net/nifi-0f95dbd3-00bc-40f6-b3ca-d024ea785e0a/nifi"
-
-[[section.element]]
-title = "Ava Espoo"
-img = "ava.svg"
-url = "https://ava-europe-espoo.escloud.dynamic.nsn-net.net"
-
-[[section.element]]
-title = "Ava Espoo Dev"
-img = "ava.svg"
-url = "https://ava-europe-espoo-dev.escloud.dynamic.nsn-net.net"
-
-[[section.element]]
-title = "Dna Workspace Dev"
-img = "workspace.svg"
-url = "https://ava-europe-espoo-dev.escloud.dynamic.nsn-net.net/workspaces/workspaces/7502bcd3-d0d2-45ba-851e-b973f11e68b4"
-
-[[section.element]]
-title = "eHour"
-img = "ehour.svg"
-url = "https://www.databiz.it/consuntivazione"
-
-[[section.element]]
-title = "Stipendio"
-img = "stipendio.svg"
-url = "https://sv23.cloudserverds.it/PubblicaWeb/studiobaronibianchi/Documents/Index?wid=f15c1ae7-da75-4318-abda-5055bdc5a493"
+title = "Tv Shows Manager"
+img = "tvShowsManager.svg"
+url = "https://www.tvshowsmanager.com/"

@@ -16,3 +16,5 @@ disableKinds = ["taxonomy", "taxonomyTerm", "sitemap", "RSS", "404", "page", "ro
     cardBackgroundColor = "white"
     cardTitleColor = "black"
     bordersColor = "black"
+    linkBackgroundColor = "white"
+    linkColor = "black"

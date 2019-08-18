@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language }}" dir="ltr">
-{{ partial "head.html" . }}
-
+{{ partial "head/head.html" . }}
 <body>
+    {{ $indexScratch := .Scratch }}
+
     {{ with .Site.Data.cards }}
         {{ range where .section "enable" true}}
-            {{ partial "container.html" . }}
+            {{ partial "cards.html" (dict "indexScratch" $indexScratch "page" .) }}
         {{ end }}
     {{ end }}
+
+    {{ with .Site.Data.lists }}
+        {{ partial "lists.html" . }}
+    {{ end }}
 </body>
+<link rel="stylesheet" href='{{ $.Scratch.Get "googleFonts" }}' media="screen">
 <script>
-    {{ $serviceWorker := resources.Get "/serviceworker.js" | resources.ExecuteAsTemplate "serviceworker.js" . | minify | fingerprint "sha512" }}
     if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('{{ $serviceWorker.Permalink }}');
+        navigator.serviceWorker.register('{{ $.Scratch.Get "serviceWorker" }}');
     };
 </script>
 </html>

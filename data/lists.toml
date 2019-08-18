@@ -1,0 +1,447 @@
+[[section]]
+enable = true
+title = "Nokia"
+id = "nokia"
+checked = true
+
+[[section.element]]
+title = "Outlook"
+url = "https://outlook.office.com/owa"
+
+[[section.element]]
+title = "Teams"
+url = "https://teams.microsoft.com"
+
+[[section.element]]
+title = "Scrum Board"
+url = "https://jiradc.int.net.nokia.com/secure/RapidBoard.jspa?rapidView=13190&projectKey=SMIADNA"
+
+[[section.element]]
+title = "Confluence"
+url = "https://confluence.int.net.nokia.com"
+
+[[section.element]]
+title = "GitLab Espoo 1"
+url = "https://gitlabe1.ext.net.nokia.com"
+
+[[section.element]]
+title = "GitLab Espoo 2"
+url = "https://gitlabe2.ext.net.nokia.com"
+
+[[section.element]]
+title = "Dna OneDrive"
+img = "onedrive.svg"
+url = "https://nokia-my.sharepoint.com/personal/ihor_kaharlichenko_ext_nokia_com/_layouts/15/onedrive.aspx?csf=1&e=jdefJ4&cid=46809bfc%2D8abf%2D4abb%2Da892%2Dc9d8937c89d3&FolderCTID=0x012000DAB65A4DCA1EA0448DCE4BA3C9BBACBF&viewid=92890af6%2D895f%2D473d%2Dbd09%2Db29b3c3a8fcd&id=%2Fpersonal%2Fihor%5Fkaharlichenko%5Fext%5Fnokia%5Fcom%2FDocuments%2FDNA"
+
+[[section.element]]
+title = "Smia Nifi"
+url = "https://ava-europe-espoo.escloud.dynamic.nsn-net.net/nifi-6230e595b5b48f9d7cb2d0fdaa3c1a7441c0236e1736a0890c42984900c166cf"
+
+[[section.element]]
+title = "Dna Nifi Dev"
+url = "https://ava-europe-espoo-dev.escloud.dynamic.nsn-net.net/nifi-11867cd6-d328-4296-a8a0-d5ae100b9284/nifi"
+
+[[section.element]]
+title = "Dna Nifi Demo"
+url = "https://ava-europe-espoo-dev.escloud.dynamic.nsn-net.net/nifi-0f95dbd3-00bc-40f6-b3ca-d024ea785e0a/nifi"
+
+[[section.element]]
+title = "Ava Espoo"
+url = "https://ava-europe-espoo.escloud.dynamic.nsn-net.net"
+
+[[section.element]]
+title = "Ava Espoo Dev"
+url = "https://ava-europe-espoo-dev.escloud.dynamic.nsn-net.net"
+
+[[section.element]]
+title = "Itsm"
+url = "https://oneitsm-portal-global-esp.int.net.nokia.com:9000/ux/myitapp/#/catalog/home"
+
+[[section.element]]
+title = "eHour"
+url = "http://10.10.10.3:8080/ehour"
+
+[[section.element]]
+title = "Cedolino"
+url = "https://sv23.cloudserverds.it/PubblicaWeb/studiobaronibianchi"
+
+[[section]]
+enable = true
+title = "Scala & FP"
+id = "scala"
+
+[[section.element]]
+title = "Cats"
+url = "https://typelevel.org/cats/"
+
+[[section.element]]
+title = "Fury"
+url = "https://fury.build/"
+
+[[section.element]]
+title = "ScalaTest"
+url = "http://www.scalatest.org/"
+
+[[section.element]]
+title = "Scala Exercises"
+url = "https://www.scala-exercises.org/"
+
+[[section.element]]
+title = "Scala FP Course: fp-tower"
+url = "https://github.com/fp-tower/foundation"
+
+[[section.element]]
+title = "IO Monad for Cats"
+url = "https://typelevel.org/blog/2017/05/02/io-monad-for-cats.html"
+
+[[section.element]]
+title = "Rob Norris - Functional Programming with Effects"
+url = "https://www.youtube.com/watch?v=30q6BkBv5MY"
+
+[[section.element]]
+title = "Applicatives for Validation"
+url = "https://blog.leifbattermann.de/2018/03/10/how-to-use-applicatives-for-validation-in-scala-and-save-much-work/"
+
+[[section.element]]
+title = "Gabriel Volpe - Cats Effect: The IO Monad for Scala"
+url = "https://youtu.be/8_TWM2t97r4"
+
+[[section.element]]
+title = "Tagless with Discipline"
+url = "https://www.iteratorshq.com/blog/tagless-with-discipline-testing-scala-code-the-right-way/"
+
+[[section.element]]
+title = "The Making of an IO - Daniel Spiewak"
+url = "https://youtu.be/g_jP47HFpWA"
+
+[[section.element]]
+title = "Kubuszok"
+url = "https://kubuszok.com/"
+
+[[section.element]]
+title = "TagLess Final"
+url = "https://jproyo.github.io/posts/2019-02-07-practical-tagless-final-in-scala.html"
+
+[[section.element]]
+title = "Scala Types of Types"
+url = "http://ktoso.github.io/scala-types-of-types/"
+
+[[section.element]]
+title = "Scala Compiler Flags"
+url = "https://tpolecat.github.io/2017/04/25/scalac-flags.html"
+
+[[section.element]]
+title = "Haskell FP Course"
+url = "https://github.com/data61/fp-course"
+
+[[section.element]]
+title = "The Neophyte's Guide to Scala"
+url = "https://danielwestheide.com/scala/neophytes.html"
+
+[[section.element]]
+title = "Faster sbt"
+url = "https://speakerdeck.com/triplequote/crack-open-sbt-and-rock-your-build-times"
+
+################################################################################
+
+[[section]]
+enable = true
+title = "FrontEnd"
+id="frontend"
+
+[[section.element]]
+title = "The Front-End Checklist"
+url = "https://frontendchecklist.io/"
+
+[[section.element]]
+title = "Streamline 3.0"
+url = "https://streamlineicons.com/free/"
+
+[[section.element]]
+title = "Developers Google"
+url = "https://developers.google.com/search/"
+
+[[section.element]]
+title = "Icomoon - Optimize Font"
+url = "https://icomoon.io/app/"
+
+[[section.element]]
+title = "WebPageTest"
+url = "https://www.webpagetest.org/"
+
+[[section.element]]
+title = "GTMetrix"
+url = "https://gtmetrix.com/"
+
+[[section.element]]
+title = "WebSite Security Test"
+url = "https://www.immuniweb.com/websec/"
+
+[[section.element]]
+title = "Security Headers"
+url = "https://securityheaders.com/"
+
+[[section.element]]
+title = "Testmysite.io"
+url = "https://testmysite.io/"
+
+[[section.element]]
+title = "Iframely"
+url = "http://debug.iframely.com/"
+
+[[section.element]]
+title = "UnCss"
+url = "https://uncss-online.com/"
+
+[[section.element]]
+title = "Units in Css"
+url = "https://dev.to/fullstack_to/units-in-css-em-rem-pt-px-vw-vh-vmin-vmax-ex-ch-53l0"
+
+[[section.element]]
+title = "Css - 30 Seconds of Code"
+url = "https://css.30secondsofcode.org/"
+
+[[section.element]]
+title = "Less 2 SCSS"
+url = "http://less2scss.awk5.com/"
+
+[[section.element]]
+title = "Real Favicon Generator"
+url = "https://realfavicongenerator.net/"
+
+################################################################################
+
+[[section]]
+enable = true
+title = "Links"
+id="links"
+
+[[section.element]]
+title = "Codin Game"
+url = "https://www.codingame.com/home"
+
+[[section.element]]
+title = "Terminals Are Sexy"
+url = "https://terminalsare.sexy/"
+
+[[section.element]]
+title = "Terminal.Sexy"
+url = "https://terminal.sexy/"
+
+[[section.element]]
+title="Programming Fonts Tester"
+url="http://app.programmingfonts.org/"
+
+[[section.element]]
+title = "CharMap"
+url = "http://mathew-kurian.github.io/CharacterMap/"
+
+[[section.element]]
+title = "Meteo"
+url = "http://www.centrometeolombardo.com/radar/"
+
+[[section.element]]
+title = "Svg Logos"
+url = "https://www.vectorlogo.zone/"
+
+[[section.element]]
+title="The Twelve-Factor App"
+url="https://12factor.net/"
+
+[[section.element]]
+title = "Keep A Changelog"
+url = "https://keepachangelog.com/en/1.0.0/"
+
+[[section.element]]
+title = "Explain Shell"
+url = "https://explainshell.com/"
+
+[[section.element]]
+title = "Overleaf"
+url = "https://www.overleaf.com"
+
+[[section.element]]
+title = "Read Asterix"
+url = "http://readasterix.blogspot.com/"
+
+[[section.element]]
+title = "Mechanical Sympathy"
+url = "https://dzone.com/articles/mechanical-sympathy"
+
+[[section.element]]
+title = "Processing.org"
+url = "https://processing.org/"
+
+[[section.element]]
+title = "Flutter"
+url = "https://flutter.dev/"
+
+[[section.element]]
+title="APK Downloader"
+url="http://apps.evozi.com/apk-downloader/"
+
+[[section.element]]
+title="UserChrome Tweaks"
+url="https://github.com/Timvde/UserChrome-Tweaks"
+
+################################################################################
+
+[[section]]
+enable = true
+title = "Reading List"
+id="reading"
+
+[[section.element]]
+title = "Beautiful Linux Environment"
+url = "https://dev.to/deepu105/my-beautiful-linux-development-environment-2afc"
+
+[[section.element]]
+title="Learn Things at 1000x"
+url="http://pranay.gp/how-to-learn-things-at-1000x-the-speed"
+
+[[section.element]]
+title="Benchmarking Functional Error Handling"
+url="https://www.iteratorshq.com/blog/benchmarking-functional-error-handling-in-scala/"
+
+[[section.element]]
+title="How I got to 200 productive hours a month"
+url="https://qotoqot.com/blog/improving-focus/"
+
+[[section.element]]
+title = "Lens & Optics"
+url = "https://medium.com/zyseme-technology/functional-references-lens-and-other-optics-in-scala-e5f7e2fdafe"
+
+[[section.element]]
+title = "Algorithms by Jeff Erickson"
+url = "http://jeffe.cs.illinois.edu/teaching/algorithms/?"
+
+[[section.element]]
+title = "So, what's wrong with SBT?"
+url = "http://www.lihaoyi.com/post/SowhatswrongwithSBT.html"
+
+[[section.element]]
+title = "Build Server Protocol in Intellij Scala Plugin"
+url = "https://blog.jetbrains.com/scala/2019/08/08/integrating-developer-experiences-the-build-server-protocol-in-the-intellij-scala-plugin/"
+
+[[section.element]]
+title="Byzantine Fault Tolerance"
+url="https://en.wikipedia.org/wiki/Byzantine_fault_tolerance"
+
+[[section.element]]
+title="The Fascinating World of Linux System Calls"
+url="https://sysdig.com/blog/fascinating-world-linux-system-calls/"
+
+[[section.element]]
+title="Build Your Own Linux"
+url="http://www.buildyourownlinux.com/"
+
+[[section.element]]
+title="High Sierra's Secure Kernel Extension Load is Broken"
+url="https://www.synack.com/2017/09/08/high-sierras-secure-kernel-extension-loading-is-broken/"
+
+[[section.element]]
+title="A Brief Tour of FLP Impossibility"
+url="https://the-paper-trail.org/blog/a-brief-tour-of-flp-impossibility/"
+
+[[section.element]]
+title="Elliptic Curve Cryptography for Beginners"
+url="http://blog.wesleyac.com/posts/elliptic-curves"
+
+[[section.element]]
+title="How to learn Emacs"
+url="http://david.rothlis.net/emacs/howtolearn.html"
+
+[[section.element]]
+title="Vim After 15 Years"
+url="https://statico.github.io/vim3.html"
+
+[[section.element]]
+title = "Nand2Tetris"
+url = "https://www.nand2tetris.org/"
+
+[[section.element]]
+title="Design Patterns"
+url="https://sourcemaking.com/design_patterns"
+
+[[section.element]]
+title = "Optimizing Fontawesome"
+url = "https://blog.webjeda.com/optimize-fontawesome/"
+
+[[section.element]]
+title = "How to super optimize a favicon"
+url = "https://jaydenseric.com/blog/favicon-optimization"
+
+[[section.element]]
+title = "Background Image Anti-Pattern"
+url = "https://nystudio107.com/blog/the-css-background-image-property-as-an-anti-pattern"
+
+[[section.element]]
+title = "Css text overflow"
+url = "https://www.codelord.net/2013/08/23/css-tip-overflowing-with-text/"
+
+[[section.element]]
+title="Implementing Mac WeatherBar"
+url="http://footle.org/WeatherBar/"
+
+[[section.element]]
+title="Creating a OS X menubar only app"
+url="https://nsrover.wordpress.com/2014/10/10/creating-a-os-x-menubar-only-app/"
+
+################################################################################
+
+[[section]]
+enable = true
+title = "Various"
+id="cemetery"
+
+[[section.element]]
+title = "Spurious Correlations"
+url = "http://tylervigen.com/spurious-correlations"
+
+[[section.element]]
+title = "AirMash"
+url = "https://airma.sh/"
+
+[[section.element]]
+title = "Daily Skyscrapers"
+url = "https://www.brainbashers.com/skyscrapers.asp"
+
+[[section.element]]
+title = "Open Source Game Clones"
+url = "https://osgameclones.com/"
+
+[[section.element]]
+title = "Portal for C64"
+url = "https://www.jamiefuller.com/portal/"
+
+[[section.element]]
+title="Virtual x86"
+url="https://copy.sh/v86/"
+
+[[section.element]]
+title="Programmer automates his job"
+url="http://uk.businessinsider.com/programmer-automates-his-job-2015-11"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
