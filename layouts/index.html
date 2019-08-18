@@ -10,8 +10,9 @@
     {{ end }}
 </body>
 <script>
+    {{ $serviceWorker := resources.Get "/serviceworker.js" | resources.ExecuteAsTemplate "serviceworker.js" . | minify | fingerprint "sha512" }}
     if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('sw.js');
+        navigator.serviceWorker.register('{{ $serviceWorker.Permalink }}');
     };
 </script>
 </html>

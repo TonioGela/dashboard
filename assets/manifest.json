@@ -1,6 +1,6 @@
 {
-    "name": "Dashboard",
-    "short_name": "Dashboard",
+    "name": "{{ .Site.Params.name }}",
+    "short_name": "{{ .Site.Params.name }}",
     "icons": [
         {
             "src": "/favicon/favicon-192.png",
@@ -14,8 +14,8 @@
         }
     ],
     "start_url": "/",
-    "background_color": "#ed7547",
+    "background_color": "{{ .Site.Params.backgroundColor }}",
     "display": "fullscreen",
     "scope": "/",
-    "theme_color": "#a64b4d"
+    "theme_color": "{{ .Site.Params.accentColor }}"
 }

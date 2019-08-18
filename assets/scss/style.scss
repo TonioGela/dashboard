@@ -19,15 +19,16 @@ body {
     background: url("{{ $background.Permalink }}") repeat fixed, {{ .Site.Params.backgroundColor }};
 }
 
-.container {
+section {
     border-top:1px solid  {{ .Site.Params.bordersColor }};
 
     &:first-of-type { 
         border-top: 0;
     }
 
-    .title {
+    h1 {
         color: {{ .Site.Params.sectionTitleColor }};
+        font-weight: normal;
         font-size: 32px;
         padding: 10px;
         border-bottom: 1px solid {{ .Site.Params.bordersColor }};
@@ -40,7 +41,7 @@ body {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         grid-gap: 10px;
 
-        .card {
+        article {
             display: flex;
             flex-direction: column;
             position: relative;
@@ -79,7 +80,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-    .container .cards {
+    section .cards {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     } 
 }

@@ -1,4 +1,4 @@
-<div class="card">
+<article>
     <picture>
         {{ $imageName := $.img | printf "%s/%s" "images" }}
         {{ $image := resources.Get $imageName | minify | fingerprint "sha512" }}
@@ -6,4 +6,4 @@
     </picture>
     <div class="cardtitle">{{ .title }}</div>
     <a href="{{ .url }}" target="_blank" rel="noreferrer" aria-label="{{ .title }}"></a>
-</div>
+</article>
