@@ -1,3 +1,5 @@
+########################################################################################################################
+
 [[section]]
 enable = true
 title = "Nokia"
@@ -64,6 +66,8 @@ url = "http://10.10.10.3:8080/ehour"
 [[section.element]]
 title = "Cedolino"
 url = "https://sv23.cloudserverds.it/PubblicaWeb/studiobaronibianchi"
+
+########################################################################################################################
 
 [[section]]
 enable = true
@@ -142,7 +146,7 @@ url = "https://danielwestheide.com/scala/neophytes.html"
 title = "Faster sbt"
 url = "https://speakerdeck.com/triplequote/crack-open-sbt-and-rock-your-build-times"
 
-################################################################################
+########################################################################################################################
 
 [[section]]
 enable = true
@@ -209,7 +213,7 @@ url = "http://less2scss.awk5.com/"
 title = "Real Favicon Generator"
 url = "https://realfavicongenerator.net/"
 
-################################################################################
+########################################################################################################################
 
 [[section]]
 enable = true
@@ -284,12 +288,16 @@ url="http://apps.evozi.com/apk-downloader/"
 title="UserChrome Tweaks"
 url="https://github.com/Timvde/UserChrome-Tweaks"
 
-################################################################################
+########################################################################################################################
 
 [[section]]
 enable = true
 title = "Reading List"
 id="reading"
+
+[[section.element]]
+title = "Develop Minecraft Mod"
+url = "https://blog.usejournal.com/a-beginners-guide-to-modding-minecraft-9a42536495f6"
 
 [[section.element]]
 title = "Beautiful Linux Environment"
@@ -387,7 +395,7 @@ url="http://footle.org/WeatherBar/"
 title="Creating a OS X menubar only app"
 url="https://nsrover.wordpress.com/2014/10/10/creating-a-os-x-menubar-only-app/"
 
-################################################################################
+########################################################################################################################
 
 [[section]]
 enable = true
@@ -422,26 +430,4 @@ url="https://copy.sh/v86/"
 title="Programmer automates his job"
 url="http://uk.businessinsider.com/programmer-automates-his-job-2015-11"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+########################################################################################################################
