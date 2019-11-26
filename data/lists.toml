@@ -229,6 +229,10 @@ title = "Codin Game"
 url = "https://www.codingame.com/home"
 
 [[section.element]]
+title = "Linux Studying Resources"
+url="https://dev.to/abregman/collection-of-linux-resources-3nhk"
+
+[[section.element]]
 title = "Terminals Are Sexy"
 url = "https://terminalsare.sexy/"
 
