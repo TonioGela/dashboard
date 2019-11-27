@@ -98,9 +98,9 @@ img = "repubblica.svg"
 url = "https://www.repubblica.it"
 
 [[section.element]]
-title = "RaiNews24"
-img = "raiNews.svg"
-url = "http://www.rainews.it/dl/rainews/live/ContentItem-3156f2f2-dc70-4953-8e2f-70d7489d4ce9.html"
+title = "BitWarden"
+img = "bitwarden.svg"
+url = "https://vault.bitwarden.com"
 
 [[section.element]]
 title = "Tv Shows Manager"
