@@ -221,6 +221,10 @@ title = "Links"
 id="links"
 
 [[section.element]]
+title = "Sudo with TouchID"
+url = "https://dev.to/equiman/how-to-use-macos-s-touch-id-on-terminal-5fhg"
+
+[[section.element]]
 title = "WannaBuy Dell"
 url = "https://www.dell.com/it-it/shop/notebook-dell/nuovo-xps-15/spd/xps-15-7590-laptop/cn79012"
 
