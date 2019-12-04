@@ -2,77 +2,9 @@
 
 [[section]]
 enable = true
-title = "Nokia"
-id = "nokia"
-checked = true
-
-[[section.element]]
-title = "Outlook"
-url = "https://outlook.office.com/owa"
-
-[[section.element]]
-title = "Teams"
-url = "https://teams.microsoft.com"
-
-[[section.element]]
-title = "Scrum Board"
-url = "https://jiradc2.int.net.nokia.com/secure/RapidBoard.jspa?rapidView=13190&projectKey=SMIADNA"
-
-[[section.element]]
-title = "Confluence"
-url = "https://confluence.int.net.nokia.com"
-
-[[section.element]]
-title = "GitLab Espoo 1"
-url = "https://gitlabe1.ext.net.nokia.com"
-
-[[section.element]]
-title = "GitLab Espoo 2"
-url = "https://gitlabe2.ext.net.nokia.com"
-
-[[section.element]]
-title = "Dna OneDrive"
-img = "onedrive.svg"
-url = "https://nokia-my.sharepoint.com/personal/ihor_kaharlichenko_ext_nokia_com/_layouts/15/onedrive.aspx?csf=1&e=jdefJ4&cid=46809bfc%2D8abf%2D4abb%2Da892%2Dc9d8937c89d3&FolderCTID=0x012000DAB65A4DCA1EA0448DCE4BA3C9BBACBF&viewid=92890af6%2D895f%2D473d%2Dbd09%2Db29b3c3a8fcd&id=%2Fpersonal%2Fihor%5Fkaharlichenko%5Fext%5Fnokia%5Fcom%2FDocuments%2FDNA"
-
-[[section.element]]
-title = "Smia Nifi"
-url = "https://ava-europe-espoo.escloud.dynamic.nsn-net.net/nifi-6230e595b5b48f9d7cb2d0fdaa3c1a7441c0236e1736a0890c42984900c166cf"
-
-[[section.element]]
-title = "Dna Nifi Dev"
-url = "https://ava-europe-espoo-dev.escloud.dynamic.nsn-net.net/nifi-11867cd6-d328-4296-a8a0-d5ae100b9284/nifi"
-
-[[section.element]]
-title = "Dna Nifi Demo"
-url = "https://ava-europe-espoo-dev.escloud.dynamic.nsn-net.net/nifi-0f95dbd3-00bc-40f6-b3ca-d024ea785e0a/nifi"
-
-[[section.element]]
-title = "Ava Espoo"
-url = "https://ava-europe-espoo.escloud.dynamic.nsn-net.net"
-
-[[section.element]]
-title = "Ava Espoo Dev"
-url = "https://ava-europe-espoo-dev.escloud.dynamic.nsn-net.net"
-
-[[section.element]]
-title = "Itsm"
-url = "https://oneitsm-portal-global-esp.int.net.nokia.com:9000/ux/myitapp/#/catalog/home"
-
-[[section.element]]
-title = "eHour"
-url = "http://10.10.10.3:8080/ehour"
-
-[[section.element]]
-title = "Cedolino"
-url = "https://sv23.cloudserverds.it/PubblicaWeb/studiobaronibianchi"
-
-########################################################################################################################
-
-[[section]]
-enable = true
 title = "Scala & FP"
 id = "scala"
+checked = true
 
 [[section.element]]
 title = "Cats"
