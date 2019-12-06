@@ -19,6 +19,10 @@ title = "ScalaTest"
 url = "http://www.scalatest.org/"
 
 [[section.element]]
+title = "Docusaurus"
+url = "https://scalameta.org/mdoc/docs/docusaurus.html"
+
+[[section.element]]
 title = "Scala Exercises"
 url = "https://www.scala-exercises.org/"
 
