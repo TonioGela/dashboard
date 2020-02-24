@@ -7,6 +7,10 @@ id = "scala"
 checked = true
 
 [[section.element]]
+title = "Mu FMSF"
+url = "https://www.47deg.com/blog/introducing-the-mu-open-source-library/"
+
+[[section.element]]
 title = "Cats"
 url = "https://typelevel.org/cats/"
 
