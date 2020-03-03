@@ -15,12 +15,20 @@ title = "Cats"
 url = "https://typelevel.org/cats/"
 
 [[section.element]]
+title = "Lambda Days Proceedings"
+url = "http://www.cse.chalmers.se/~rjmh/tfp/proceedings.html"
+
+[[section.element]]
 title = "Fury"
 url = "https://fury.build/"
 
 [[section.element]]
 title = "ScalaTest"
 url = "http://www.scalatest.org/"
+
+[[section.element]]
+title = "ScalaColors"
+url = "https://gist.github.com/kubukoz/e4f5b8833eb370e1af2c17cd1ef4504d"
 
 [[section.element]]
 title = "Docusaurus"
@@ -272,6 +280,14 @@ title = "Beautiful Linux Environment"
 url = "https://dev.to/deepu105/my-beautiful-linux-development-environment-2afc"
 
 [[section.element]]
+title = "Boring Software Development"
+url = "https://medium.com/@marc.bojakowski/software-development-done-right-is-boring-e7277242c3ff"
+
+[[section.element]]
+title = "Transformation Priority Premise"
+url = "https://en.m.wikipedia.org/wiki/Transformation_Priority_Premise"
+
+[[section.element]]
 title="Learn Things at 1000x"
 url="http://pranay.gp/how-to-learn-things-at-1000x-the-speed"
 
@@ -373,6 +389,10 @@ id="cemetery"
 [[section.element]]
 title = "Spurious Correlations"
 url = "http://tylervigen.com/spurious-correlations"
+
+[[section.element]]
+title = "Sticky Toffee Cake"
+url = "https://thehappyfoodie.co.uk/recipes/gloriously-sticky-toffee-cake"
 
 [[section.element]]
 title = "AirMash"
