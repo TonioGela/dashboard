@@ -59,6 +59,10 @@ title = "The Making of an IO - Daniel Spiewak"
 url = "https://youtu.be/g_jP47HFpWA"
 
 [[section.element]]
+title = "Haskell for Mac"
+url = "http://learn.hfm.io/first_steps.html"
+
+[[section.element]]
 title = "Kubuszok"
 url = "https://kubuszok.com/"
 
@@ -71,6 +75,10 @@ title = "Scala Types of Types"
 url = "http://ktoso.github.io/scala-types-of-types/"
 
 [[section.element]]
+title = "About Variance"
+url = "https://francistoth.github.io/2020/02/12/variance.html"
+
+[[section.element]]
 title = "Scala Compiler Flags"
 url = "https://tpolecat.github.io/2017/04/25/scalac-flags.html"
 
@@ -81,6 +89,10 @@ url = "https://github.com/data61/fp-course"
 [[section.element]]
 title = "The Neophyte's Guide to Scala"
 url = "https://danielwestheide.com/scala/neophytes.html"
+
+[[section.element]]
+title = "okmij - Haskell"
+url = "http://okmij.org/ftp/"
 
 [[section.element]]
 title = "Faster sbt"
@@ -250,6 +262,10 @@ id="reading"
 [[section.element]]
 title = "Develop Minecraft Mod"
 url = "https://blog.usejournal.com/a-beginners-guide-to-modding-minecraft-9a42536495f6"
+
+[[section.element]]
+title = "GeekAByte - Learn Rust"
+url = "https://www.geekabyte.io/2020/01/learning-rust-day-1.html"
 
 [[section.element]]
 title = "Beautiful Linux Environment"
