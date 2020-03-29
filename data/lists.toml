@@ -181,6 +181,10 @@ title = "Links"
 id="links"
 
 [[section.element]]
+title = "Darling HQ"
+url = "http://darlinghq.org/"
+
+[[section.element]]
 title = "Sudo with TouchID"
 url = "https://dev.to/equiman/how-to-use-macos-s-touch-id-on-terminal-5fhg"
 
