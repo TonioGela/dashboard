@@ -7,6 +7,10 @@ id = "scala"
 checked = true
 
 [[section.element]]
+title = "Scala GraalVM Native"
+url = "https://noelwelsh.com/posts/2020-02-06-serverless-scala-services.html"
+
+[[section.element]]
 title = "Mu FMSF"
 url = "https://www.47deg.com/blog/introducing-the-mu-open-source-library/"
 
