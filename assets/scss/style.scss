@@ -39,6 +39,24 @@ section {
         z-index: 100;
     }
 
+    .search-wrapper{
+        padding: 10px;
+        background-color: {{ .Site.Params.sectionTitleBackgroundColor }};
+        position: sticky;
+        top: 0;
+        input {
+            color: {{ .Site.Params.sectionTitleColor }};
+            font-weight: normal;
+            font-size: 32px;
+            line-height:1.2em;
+            width: 100%;
+            background-color: #00000000;
+            top: 0;
+            z-index: 100;
+            border:0;
+        }
+    }
+
     .cards {
         padding: 10px;
         display: grid;

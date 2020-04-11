@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language }}" dir="ltr">
 {{ partial "head/head.html" . }}
+
 <body>
     {{ $indexScratch := .Scratch }}
 
     {{ with .Site.Data.cards }}
-        {{ range where .section "enable" true}}
-            {{ partial "cards.html" (dict "indexScratch" $indexScratch "page" .) }}
-        {{ end }}
+    {{ range where .section "enable" true}}
+    {{ partial "cards.html" (dict "indexScratch" $indexScratch "page" .) }}
+    {{ end }}
     {{ end }}
 
+    <section>
+        <form class="search-wrapper"
+            onsubmit="event.preventDefault();location.replace('https://www.justwatch.com/it/cerca?q=' + document.getElementsByTagName('input')[0].value);">
+            <input type="text" placeholder="Search on JustWatch">
+        </form>
+    </section>
+
     {{ with .Site.Data.lists }}
-        {{ partial "lists.html" . }}
+    {{ partial "lists.html" . }}
     {{ end }}
 </body>
 <link rel="stylesheet" href='{{ $.Scratch.Get "googleFonts" }}' media="screen">
 <script>
-    if('serviceWorker' in navigator) {
+    if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('{{ $.Scratch.Get "serviceWorker" }}');
     };
 </script>
+
 </html>
