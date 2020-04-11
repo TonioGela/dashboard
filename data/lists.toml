@@ -19,6 +19,10 @@ title = "Cats"
 url = "https://typelevel.org/cats/"
 
 [[section.element]]
+title = "Scala Best Practices"
+url = "https://nrinaudo.github.io/scala-best-practices/"
+
+[[section.element]]
 title = "Lambda Days Proceedings"
 url = "http://www.cse.chalmers.se/~rjmh/tfp/proceedings.html"
 
