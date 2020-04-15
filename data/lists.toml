@@ -189,6 +189,10 @@ title = "Links"
 id="links"
 
 [[section.element]]
+title="Box Drawing Characters"
+url = "https://en.wikipedia.org/wiki/Box-drawing_character"
+
+[[section.element]]
 title = "Darling HQ"
 url = "http://darlinghq.org/"
 
