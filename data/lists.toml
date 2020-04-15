@@ -395,6 +395,17 @@ url="https://nsrover.wordpress.com/2014/10/10/creating-a-os-x-menubar-only-app/"
 
 [[section]]
 enable = true
+title = "Ricette"
+id="recipes"
+
+[[section.element]]
+title = "Polpette di Melanzane"
+url = "https://www.thebluebirdkitchen.com/polpette-di-melanzane/"
+
+########################################################################################################################
+
+[[section]]
+enable = true
 title = "Various"
 id="cemetery"
 
@@ -431,3 +442,5 @@ title="Programmer automates his job"
 url="http://uk.businessinsider.com/programmer-automates-his-job-2015-11"
 
 ########################################################################################################################
+
+
