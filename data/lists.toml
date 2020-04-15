@@ -292,6 +292,14 @@ title = "Reading List"
 id="reading"
 
 [[section.element]]
+title = "Learn X in Y minutes"
+url = "https://learnxinyminutes.com/"
+
+[[section.element]]
+title = "Learn Rust in 30 mins"
+url = "https://fasterthanli.me/blog/2020/a-half-hour-to-learn-rust/"
+
+[[section.element]]
 title = "Develop Minecraft Mod"
 url = "https://blog.usejournal.com/a-beginners-guide-to-modding-minecraft-9a42536495f6"
 
@@ -421,6 +429,10 @@ url = "https://thehappyfoodie.co.uk/recipes/gloriously-sticky-toffee-cake"
 [[section.element]]
 title = "Torta di Carote"
 url = "https://www.tavolartegusto.it/ricetta/torta-di-carote/"
+
+[[section.element]]
+title = "Torta di Mele"
+url = "https://www.thebluebirdkitchen.com/torta-di-mele-e-gocce-di-cioccolato/"
 
 ########################################################################################################################
 
