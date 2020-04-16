@@ -438,6 +438,23 @@ url = "https://www.thebluebirdkitchen.com/torta-di-mele-e-gocce-di-cioccolato/"
 title = "Pakora"
 url = "https://www.thebluebirdkitchen.com/pakora-al-forno/"
 
+
+[[section.element]]
+title = "Torta Pomodorini Feta"
+url = "https://www.thebluebirdkitchen.com/torta-salata-pomodorini-e-feta/"
+
+[[section.element]]
+title = "Aperitivo Casalingo"
+url = "https://www.thebluebirdkitchen.com/aperitivo-casalingo/"
+
+[[section.element]]
+title = "Insalata Patate e Piselli"
+url = "https://www.thebluebirdkitchen.com/insalata-di-patate-e-piselli/"
+
+[[section.element]]
+title = "Tortillas Cacao e Moscardini"
+url = "https://www.thebluebirdkitchen.com/tortillas-al-cacao-con-moscardini-piccanti/"
+
 ########################################################################################################################
 
 [[section]]
