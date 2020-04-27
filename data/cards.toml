@@ -68,6 +68,11 @@ img = "youtube.svg"
 url = "http://youtube.com"
 
 [[section.element]]
+title = "Google Play"
+img = "googlePlay.svg"
+url = "http://play.google.com"
+
+[[section.element]]
 title = "Amazon"
 img = "amazon.svg"
 url = "https://www.amazon.it"
