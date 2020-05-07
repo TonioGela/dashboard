@@ -11,6 +11,10 @@ title = "Scala GraalVM Native"
 url = "https://noelwelsh.com/posts/2020-02-06-serverless-scala-services.html"
 
 [[section.element]]
+title = "Beating WC in 80 lines of Haskell"
+url="https://chrispenner.ca/posts/wc"
+
+[[section.element]]
 title = "Mu FMSF"
 url = "https://www.47deg.com/blog/introducing-the-mu-open-source-library/"
 
@@ -203,6 +207,14 @@ url = "https://allenkim67.github.io/programming/2016/05/04/how-to-make-your-own-
 [[section.element]]
 title = "Darling HQ"
 url = "http://darlinghq.org/"
+
+[[section.element]]
+title = "How does NixOs work"
+url = "https://christine.website/blog/nixos-desktop-flow-2020-04-25"
+
+[[section.element]]
+title = "Rclone"
+url = "https://rclone.org/docs/"
 
 [[section.element]]
 title = "Sudo with TouchID"
