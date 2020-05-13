@@ -197,6 +197,10 @@ title = "Links"
 id="links"
 
 [[section.element]]
+title = "Flutter for Desktop"
+url = "https://itnext.io/getting-started-with-flutter-desktop-91e8293bafcf"
+
+[[section.element]]
 title = "Box Drawing Characters"
 url = "https://en.wikipedia.org/wiki/Box-drawing_character"
 
@@ -449,7 +453,6 @@ url = "https://www.thebluebirdkitchen.com/torta-di-mele-e-gocce-di-cioccolato/"
 [[section.element]]
 title = "Pakora"
 url = "https://www.thebluebirdkitchen.com/pakora-al-forno/"
-
 
 [[section.element]]
 title = "Torta Pomodorini Feta"
