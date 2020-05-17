@@ -8,8 +8,7 @@
     <input type="radio" name="links" id="{{ .id }}" {{ if .checked }}checked{{ end }}>
     <div class="list" id="{{ .id }}-list">
         {{ range .element }}
-        <a href="{{ .url }}" target="_blank" rel="noopener" title="{{ .title }}"
-            aria-label="{{ .title }}">{{ .title }}</a>
+        <a href="{{ .url }}" rel="noopener" title="{{ .title }}" aria-label="{{ .title }}">{{ .title }}</a>
         {{ end }}
     </div>
     {{ end }}
