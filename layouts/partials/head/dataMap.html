@@ -1,11 +1,11 @@
 {{ with .Site.Data.cards }}
-    {{ range where .section "enable" true}}
-        {{ range .element }}
-                    {{ $imageName := .img | printf "%s/%s" "images" }}
-                    {{ $image := resources.Get $imageName | minify | fingerprint "sha512" }}
-                    {{ $.Scratch.Set .img $image.Permalink }}
-        {{ end }}
-    {{ end }}
+{{ range where .section "enable" true}}
+{{ range .element }}
+{{ $imageName := .img | printf "%s/%s" "images" }}
+{{ $image := resources.Get $imageName | minify | fingerprint "sha512" }}
+{{ $.Scratch.Set .img $image.Permalink }}
+{{ end }}
+{{ end }}
 {{ end }}
 
 {{ $background := resources.Get "images/background.svg" | resources.ExecuteAsTemplate "background.svg" . | minify | fingerprint "sha512" }}

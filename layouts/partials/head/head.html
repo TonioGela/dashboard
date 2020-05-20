@@ -9,16 +9,19 @@
     {{ partial "head/dataMap.html" . }}
 
     {{ with .Site.Data.cards }}
-        {{ range where .section "enable" true}}
-            {{ range .element}}
-                <link rel="preload" as="image" href="{{ $.Scratch.Get .img }}">
-            {{ end }}
-        {{ end }}
+    {{ range where .section "enable" true}}
+    {{ range .element}}
+    <link rel="preload" as="image" href="{{ $.Scratch.Get .img }}">
+    {{ end }}
+    {{ end }}
     {{ end }}
     <link rel="preload" as="image" href='{{ $.Scratch.Get "background.svg" }}'>
-    <link rel="preload" as="font" type="font/woff2" crossorigin="crossorigin" href="{{ .Site.BaseURL }}fonts/normal.woff2">
-    <link rel="preload" as="font" type="font/woff2" crossorigin="crossorigin" href="{{ .Site.BaseURL }}fonts/bold.woff2">
-    <link rel="preload" as="font" type="font/woff2" crossorigin="crossorigin" href="{{ .Site.BaseURL }}fonts/thin.woff2">
+    <link rel="preload" as="font" type="font/woff2" crossorigin="crossorigin"
+        href="{{ .Site.BaseURL }}fonts/normal.woff2">
+    <link rel="preload" as="font" type="font/woff2" crossorigin="crossorigin"
+        href="{{ .Site.BaseURL }}fonts/bold.woff2">
+    <link rel="preload" as="font" type="font/woff2" crossorigin="crossorigin"
+        href="{{ .Site.BaseURL }}fonts/thin.woff2">
 
     <!-- Css -->
     <link rel="preload" as="style" href='{{ $.Scratch.Get "googleFonts" }}'>
