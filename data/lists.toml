@@ -320,6 +320,11 @@ title = "Learn Rust in 30 mins"
 url = "https://fasterthanli.me/blog/2020/a-half-hour-to-learn-rust/"
 
 [[section.element]]
+
+title = "How to write a toy jvm"
+url = "https://zserge.com/posts/jvm/"
+
+[[section.element]]
 title = "Develop Minecraft Mod"
 url = "https://blog.usejournal.com/a-beginners-guide-to-modding-minecraft-9a42536495f6"
 
