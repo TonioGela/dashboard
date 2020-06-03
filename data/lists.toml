@@ -15,6 +15,10 @@ title = "Beating WC in 80 lines of Haskell"
 url="https://chrispenner.ca/posts/wc"
 
 [[section.element]]
+title = "Console Games in Scala"
+url = "http://eed3si9n.com/console-games-in-scala"
+
+[[section.element]]
 title = "Mu FMSF"
 url = "https://www.47deg.com/blog/introducing-the-mu-open-source-library/"
 
