@@ -63,6 +63,11 @@ img = "prime.svg"
 url = "https://www.primevideo.com"
 
 [[section.element]]
+title = "Disney +"
+img = "disney.svg"
+url = "https://www.disneyplus.com"
+
+[[section.element]]
 title = "YouTube"
 img = "youtube.svg"
 url = "http://youtube.com"
