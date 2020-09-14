@@ -7,6 +7,10 @@ id = "scala"
 checked = true
 
 [[section.element]]
+title = "This week in Scala"
+url = "https://medium.com/disney-streaming/tagged/thisweekinscala"
+
+[[section.element]]
 title = "Scala GraalVM Native"
 url = "https://noelwelsh.com/posts/2020-02-06-serverless-scala-services.html"
 
@@ -320,7 +324,6 @@ title = "Learn Rust in 30 mins"
 url = "https://fasterthanli.me/blog/2020/a-half-hour-to-learn-rust/"
 
 [[section.element]]
-
 title = "How to write a toy jvm"
 url = "https://zserge.com/posts/jvm/"
 
@@ -493,6 +496,10 @@ id="cemetery"
 [[section.element]]
 title = "Spurious Correlations"
 url = "http://tylervigen.com/spurious-correlations"
+
+[[section.element]]
+title = "One Piece"
+url = "https://juinjutsuteam.wixsite.com/sito/one-piece"
 
 [[section.element]]
 title = "AirMash"
