@@ -316,6 +316,10 @@ title = "Reading List"
 id="reading"
 
 [[section.element]]
+title = "Homebrew: Java App"
+url = "https://www.veracode.com/blog/secure-development/distribute-your-java-app-brew"
+
+[[section.element]]
 title = "Notarize a command line app"
 url = "https://scriptingosx.com/2019/09/notarize-a-command-line-tool/"
 
