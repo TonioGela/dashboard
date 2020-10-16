@@ -316,6 +316,10 @@ title = "Reading List"
 id="reading"
 
 [[section.element]]
+title = "Notarize a command line app"
+url = "https://scriptingosx.com/2019/09/notarize-a-command-line-tool/"
+
+[[section.element]]
 title = "Learn X in Y minutes"
 url = "https://learnxinyminutes.com/"
 
