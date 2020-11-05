@@ -221,6 +221,10 @@ title = "Darling HQ"
 url = "http://darlinghq.org/"
 
 [[section.element]]
+title = "Svg Path Drawer"
+url = "https://yqnn.github.io/svg-path-editor/"
+
+[[section.element]]
 title = "How does NixOs work"
 url = "https://christine.website/blog/nixos-desktop-flow-2020-04-25"
 
