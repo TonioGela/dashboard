@@ -205,6 +205,10 @@ title = "Links"
 id="links"
 
 [[section.element]]
+title = "Rust Resources"
+url = "https://towardsdatascience.com/you-want-to-learn-rust-but-you-dont-know-where-to-start-fc826402d5ba"
+
+[[section.element]]
 title = "Flutter for Desktop"
 url = "https://itnext.io/getting-started-with-flutter-desktop-91e8293bafcf"
 
