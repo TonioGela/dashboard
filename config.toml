@@ -10,7 +10,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "sitemap", "RSS", "404", "page", "ro
     greekFonts = false
 
     backgroundColor = "#4c566a"
-    accentColor = "#2e3440"
+    accentColor = "red"
     sectionTitleColor = "#2e3440"
     sectionTitleBackgroundColor = "#d8dee9cc"
     cardBackgroundColor = "#d8dee9"
