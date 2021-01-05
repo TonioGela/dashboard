@@ -349,6 +349,10 @@ title = "Reading List"
 id="reading"
 
 [[section.element]]
+title = "Docker Image Reduction"
+url = "https://dev.to/mrbrazel/docker-image-size-reduction-220a"
+
+[[section.element]]
 title = "Homebrew: Java App"
 url = "https://www.veracode.com/blog/secure-development/distribute-your-java-app-brew"
 

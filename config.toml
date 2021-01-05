@@ -9,7 +9,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "sitemap", "RSS", "404", "page", "ro
     author = "Antonio Gelameris"
     greekFonts = false
 
-    backgroundColor = "#a64b4d"
+    backgroundColor = "#182a41"
     accentColor = "black"
     sectionTitleColor = "black"
     sectionTitleBackgroundColor = "#f4f4f4cc"
