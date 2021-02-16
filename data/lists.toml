@@ -353,6 +353,10 @@ title = "Reading List"
 id="reading"
 
 [[section.element]]
+title = "Cyber Security"
+url = "https://victoria.dev/blog/your-cybersecurity-starter-pack/"
+
+[[section.element]]
 title = "Docker Image Reduction"
 url = "https://dev.to/mrbrazel/docker-image-size-reduction-220a"
 
