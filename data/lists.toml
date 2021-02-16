@@ -226,6 +226,10 @@ title = "Links"
 id="links"
 
 [[section.element]]
+title = "Svg Repo"
+url = "https://www.svgrepo.com/"
+
+[[section.element]]
 title = "Hemingway - Valutate text"
 url = "http://www.hemingwayapp.com/"
 
