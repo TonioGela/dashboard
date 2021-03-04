@@ -12,8 +12,8 @@
   # Referrer Policy
   Referrer-Policy: strict-origin
 
-  # Feature Policy
-  Feature-Policy: fullscreen 'self'
+  # Permissions Policy
+  Permissions-Policy: fullscreen=(self)
   
   # Cache Control
   cache-control: no-cache
