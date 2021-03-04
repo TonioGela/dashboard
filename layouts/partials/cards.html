@@ -6,7 +6,7 @@
         <article>
             <picture>
                 {{ $image := $imagesCopy.Get .img }}
-                <img inline="true" src="{{ $image }}" alt="{{ .title }}">
+                <img inline="inline" src="{{ $image }}" alt="{{ .title }}">
             </picture>
             <div class="cardtitle">{{ .title }}</div>
             <a href="{{ .url }}" rel="noreferrer" aria-label="{{ .title }}"></a>
