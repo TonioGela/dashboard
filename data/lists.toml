@@ -84,6 +84,14 @@ title = "Applicatives for Validation"
 url = "https://blog.leifbattermann.de/2018/03/10/how-to-use-applicatives-for-validation-in-scala-and-save-much-work/"
 
 [[section.element]]
+title = "Jlink"
+url = "https://dev.to/parambirs/easily-distributable-scala-clis-using-jlink-18fe"
+
+[[section.element]]
+title = "JPackage"
+url = "https://www.scala-sbt.org/sbt-native-packager/formats/jdkpackager.html"
+
+[[section.element]]
 title = "Gabriel Volpe - Cats Effect: The IO Monad for Scala"
 url = "https://youtu.be/8_TWM2t97r4"
 
@@ -355,6 +363,10 @@ id="reading"
 [[section.element]]
 title = "Cyber Security"
 url = "https://victoria.dev/blog/your-cybersecurity-starter-pack/"
+
+[[section.element]]
+title = "Why AB freezes"
+url = "https://stackoverflow.com/questions/1216267/ab-program-freezes-after-lots-of-requests-why"
 
 [[section.element]]
 title = "Docker Image Reduction"
