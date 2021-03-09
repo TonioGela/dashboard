@@ -3,19 +3,14 @@ enable = true
 title = "Personal"
 
 [[section.element]]
-title = "Slack"
-img = "slack.svg"
-url = "https://app.slack.com/client"
-
-[[section.element]]
-title = "Gmail"
-img = "gmail.svg"
-url = "https://www.gmail.com"
-
-[[section.element]]
 title = "Twitter"
 img = "twitter.svg"
 url = "https://twitter.com"
+
+[[section.element]]
+title = "GitHub"
+img = "github.svg"
+url = "https://github.com"
 
 [[section.element]]
 title = "Whatsapp"
@@ -23,19 +18,19 @@ img = "whatsapp.svg"
 url = "https://web.whatsapp.com"
 
 [[section.element]]
+title = "Gmail"
+img = "gmail.svg"
+url = "https://www.gmail.com"
+
+[[section.element]]
+title = "Slack"
+img = "slack.svg"
+url = "https://app.slack.com/client"
+
+[[section.element]]
 title = "Telegram"
 img = "telegram.svg"
 url = "https://web.telegram.org"
-
-[[section.element]]
-title = "GitLab"
-img = "gitlab.svg"
-url = "https://gitlab.com"
-
-[[section.element]]
-title = "GitHub"
-img = "github.svg"
-url = "https://github.com"
 
 [[section.element]]
 title = "Linkedin"
@@ -47,10 +42,6 @@ title = "Netlify"
 img = "netlify.svg"
 url = "https://app.netlify.com/teams/toniogela/sites"
 
-[[section.element]]
-title = "Udemy"
-img = "udemy.svg"
-url = "https://www.udemy.com"
 
 [[section.element]]
 title = "Netflix"
@@ -72,10 +63,6 @@ title = "YouTube"
 img = "youtube.svg"
 url = "http://youtube.com"
 
-[[section.element]]
-title = "Google Play"
-img = "googlePlay.svg"
-url = "http://play.google.com"
 
 [[section.element]]
 title = "Amazon"
@@ -106,13 +93,3 @@ url = "https://www.ilpost.it"
 title = "La Repubblica"
 img = "repubblica.svg"
 url = "https://www.repubblica.it"
-
-[[section.element]]
-title = "BitWarden"
-img = "bitwarden.svg"
-url = "https://vault.bitwarden.com"
-
-[[section.element]]
-title = "Tv Shows Manager"
-img = "tvShowsManager.svg"
-url = "https://www.tvshowsmanager.com/"
