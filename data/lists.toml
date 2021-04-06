@@ -1,7 +1,7 @@
 ########################################################################################################################
 
 [[section]]
-enable = true
+enable = false
 title = "Scala & FP"
 id = "scala"
 checked = true
@@ -146,7 +146,7 @@ url = "https://speakerdeck.com/triplequote/crack-open-sbt-and-rock-your-build-ti
 ########################################################################################################################
 
 [[section]]
-enable = true
+enable = false
 title = "FrontEnd"
 id="frontend"
 
@@ -229,7 +229,7 @@ url = "https://realfavicongenerator.net/"
 ########################################################################################################################
 
 [[section]]
-enable = true
+enable = false
 title = "Links"
 id="links"
 
@@ -356,7 +356,7 @@ url="https://github.com/Timvde/UserChrome-Tweaks"
 ########################################################################################################################
 
 [[section]]
-enable = true
+enable = false
 title = "Reading List"
 id="reading"
 
@@ -507,7 +507,7 @@ url="https://nsrover.wordpress.com/2014/10/10/creating-a-os-x-menubar-only-app/"
 ########################################################################################################################
 
 [[section]]
-enable = true
+enable = false
 title = "Ricette"
 id="recipes"
 
@@ -558,7 +558,7 @@ url = "https://chiaramaci.com/crescioni/"
 ########################################################################################################################
 
 [[section]]
-enable = true
+enable = false
 title = "Various"
 id="cemetery"
 
