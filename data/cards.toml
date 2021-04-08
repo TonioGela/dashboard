@@ -80,9 +80,9 @@ img = "dev.svg"
 url = "https://dev.to"
 
 [[section.element]]
-title = "xkcd"
-img = "xkcd.svg"
-url = "https://xkcd.com"
+title = "Notes"
+img = "notes.svg"
+url = "https://notes.toniogela.dev"
 
 [[section.element]]
 title = "Il Post"
