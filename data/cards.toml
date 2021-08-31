@@ -22,10 +22,15 @@ title = "Gmail"
 img = "gmail.svg"
 url = "https://www.gmail.com"
 
+# [[section.element]]
+# title = "Slack"
+# img = "slack.svg"
+# url = "https://app.slack.com/client"
+
 [[section.element]]
-title = "Slack"
-img = "slack.svg"
-url = "https://app.slack.com/client"
+title = "Discord"
+img = "discord.svg"
+url = "https://discord.com/app"
 
 [[section.element]]
 title = "Telegram"
