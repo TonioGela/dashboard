@@ -17,6 +17,12 @@
             <input type="text" placeholder="Search on JustWatch">
         </form>
     </section>
+    <section>
+        <form class="search-wrapper"
+            onsubmit="event.preventDefault();location.replace('https://filmsimili.it/search/?q=' + document.getElementsByTagName('input')[1].value);">
+            <input type="text" placeholder="Search on FilmSimili">
+        </form>
+    </section>
 
     {{ with .Site.Data.lists }}
     {{ partial "lists.html" . }}
