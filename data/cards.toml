@@ -27,10 +27,10 @@ url = "https://www.gmail.com"
 # img = "slack.svg"
 # url = "https://app.slack.com/client"
 
-[[section.element]]
-title = "Discord"
-img = "discord.svg"
-url = "https://discord.com/app"
+# [[section.element]]
+# title = "Discord"
+# img = "discord.svg"
+# url = "https://discord.com/app"
 
 [[section.element]]
 title = "Telegram"
@@ -46,7 +46,6 @@ url = "https://www.linkedin.com"
 title = "Netlify"
 img = "netlify.svg"
 url = "https://app.netlify.com/teams/toniogela/sites"
-
 
 [[section.element]]
 title = "Netflix"
@@ -68,7 +67,6 @@ title = "YouTube"
 img = "youtube.svg"
 url = "http://youtube.com"
 
-
 [[section.element]]
 title = "Amazon"
 img = "amazon.svg"
@@ -79,10 +77,10 @@ title = "Hacker News"
 img = "hackernews.svg"
 url = "https://news.ycombinator.com"
 
-[[section.element]]
-title = "Dev"
-img = "dev.svg"
-url = "https://dev.to"
+# [[section.element]]
+# title = "Dev"
+# img = "dev.svg"
+# url = "https://dev.to"
 
 [[section.element]]
 title = "Notes"
@@ -94,7 +92,7 @@ title = "Il Post"
 img = "ilpost.svg"
 url = "https://www.ilpost.it"
 
-[[section.element]]
-title = "La Repubblica"
-img = "repubblica.svg"
-url = "https://www.repubblica.it"
+# [[section.element]]
+# title = "La Repubblica"
+# img = "repubblica.svg"
+# url = "https://www.repubblica.it"
