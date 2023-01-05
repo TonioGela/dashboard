@@ -22,16 +22,6 @@ title = "Gmail"
 img = "gmail.svg"
 url = "https://www.gmail.com"
 
-# [[section.element]]
-# title = "Slack"
-# img = "slack.svg"
-# url = "https://app.slack.com/client"
-
-# [[section.element]]
-# title = "Discord"
-# img = "discord.svg"
-# url = "https://discord.com/app"
-
 [[section.element]]
 title = "Telegram"
 img = "telegram.svg"
@@ -73,26 +63,16 @@ img = "amazon.svg"
 url = "https://www.amazon.it"
 
 [[section.element]]
+title = "Mastodon"
+img = "mastodon.svg"
+url = "https://hachyderm.io/home"
+
+[[section.element]]
 title = "Hacker News"
 img = "hackernews.svg"
 url = "https://news.ycombinator.com"
-
-# [[section.element]]
-# title = "Dev"
-# img = "dev.svg"
-# url = "https://dev.to"
-
-[[section.element]]
-title = "Notes"
-img = "notes.svg"
-url = "https://notes.toniogela.dev"
 
 [[section.element]]
 title = "Il Post"
 img = "ilpost.svg"
 url = "https://www.ilpost.it"
-
-# [[section.element]]
-# title = "La Repubblica"
-# img = "repubblica.svg"
-# url = "https://www.repubblica.it"
