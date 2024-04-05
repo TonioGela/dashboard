@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8; X-Content-Type-Options=nosniff">
+    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none'; base-uri 'self';" />
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="revisit-after" content="3 days">
+    <meta name="author" content="TonioGela">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="preload" as="style" href="{{ config.base_url }}/dashboard.css" />
+    <link rel="preload" as="image" href="{{ config.base_url }}/background.svg">
+    <link rel="stylesheet" href="{{ config.base_url }}/dashboard.css" />
+    <title>{{ config.title }}</title>
+    <script async="true" defer="true" src="{{ config.base_url }}/instantpage-5.1.0.js" type="module"></script>
+</head>
+
+<body data-instant-allow-external-links>
+    {% block cards %} {% endblock cards %}
+    {% block search %} {% endblock search %}
+</body>
+
+</html>

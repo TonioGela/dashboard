@@ -1,20 +1,87 @@
-baseurl = "https://dashboard.toniogela.dev/"
-languageCode = "en"
-title = "HomePage"
-disableKinds = ["taxonomy", "taxonomyTerm", "sitemap", "RSS", "404", "page", "robotsTXT", "section"]
+title = "Dashboard"
+base_url = "https://dashboard.toniogela.dev"
+compile_sass = true
+minify_html = true
 
-[params]
-    name = "Dashboard"
-    description = "TonioGela's Personal Dashboard"
-    author = "Antonio Gelameris"
-    greekFonts = false
+[[extra.engine]]
+name = "JustWatch"
+url = "https://www.justwatch.com/it/cerca?q="
 
-    backgroundColor = "#4c566a"
-    accentColor = "#2e3440"
-    sectionTitleColor = "#2e3440"
-    sectionTitleBackgroundColor = "#d8dee9cc"
-    cardBackgroundColor = "#d8dee9"
-    cardTitleColor = "#2e3440"
-    bordersColor = "#2e3440"
-    linkBackgroundColor = "#d8dee9"
-    linkColor = "#2e3440"
+[[extra.engine]]
+name = "FilmSimili"
+url = "https://filmsimili.it/search/?q="
+
+[[extra.card]]
+title = "Twitter"
+img = "twitter.svg"
+url = "https://twitter.com"
+
+[[extra.card]]
+title = "GitHub"
+img = "github.svg"
+url = "https://github.com/TonioGela"
+
+[[extra.card]]
+title = "Whatsapp"
+img = "whatsapp.svg"
+url = "https://web.whatsapp.com"
+
+[[extra.card]]
+title = "Gmail"
+img = "gmail.svg"
+url = "https://www.gmail.com"
+
+[[extra.card]]
+title = "Telegram"
+img = "telegram.svg"
+url = "https://web.telegram.org"
+
+[[extra.card]]
+title = "Linkedin"
+img = "linkedin.svg"
+url = "https://www.linkedin.com"
+
+[[extra.card]]
+title = "Netlify"
+img = "netlify.svg"
+url = "https://app.netlify.com/teams/toniogela/sites"
+
+[[extra.card]]
+title = "Netflix"
+img = "netflix.svg"
+url = "https://www.netflix.com"
+
+[[extra.card]]
+title = "Prime Video"
+img = "prime.svg"
+url = "https://www.primevideo.com"
+
+[[extra.card]]
+title = "Disney +"
+img = "disney.svg"
+url = "https://www.disneyplus.com"
+
+[[extra.card]]
+title = "YouTube"
+img = "youtube.svg"
+url = "http://youtube.com"
+
+[[extra.card]]
+title = "Amazon"
+img = "amazon.svg"
+url = "https://www.amazon.it"
+
+[[extra.card]]
+title = "Mastodon"
+img = "mastodon.svg"
+url = "https://hachyderm.io/home"
+
+[[extra.card]]
+title = "Hacker News"
+img = "hackernews.svg"
+url = "https://news.ycombinator.com"
+
+[[extra.card]]
+title = "Il Post"
+img = "ilpost.svg"
+url = "https://www.ilpost.it"

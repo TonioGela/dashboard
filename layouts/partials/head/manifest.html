@@ -1,4 +1,0 @@
-{{ $manifest := resources.Get "/manifest.json" | resources.ExecuteAsTemplate "manifest.json" . | minify | fingerprint "sha512" }}
-<link rel="manifest" href="{{ $manifest.Permalink }}">
-{{ $browserconfig := resources.Get "/browserconfig.xml" | resources.ExecuteAsTemplate "browserconfig.xml" . | minify | fingerprint "sha512" }}
-<meta name="msapplication-config" content="{{ $browserconfig.Permalink }}">

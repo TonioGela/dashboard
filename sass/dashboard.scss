@@ -1,0 +1,113 @@
+$backgroundColor: #4c566a;
+$bordersColor: #2e3440;
+$sectionTitleColor: #2e3440;
+$sectionTitleBackgroundColor: #d8dee9cc;
+$cardTitleColor: #2e3440;
+$cardBackgroundColor: #d8dee9;
+
+* {
+    box-sizing: border-box;
+    line-height: 1;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+::selection,
+:active,
+:focus,
+:hover,
+:visited {
+    outline: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: system-ui, sans-serif;
+    min-height: 100vh;
+    background: $backgroundColor url("/background.svg") repeat fixed;
+}
+
+section {
+    border-top: 1px solid $bordersColor;
+
+    &:first-of-type {
+        border-top: 0;
+    }
+
+    .search-wrapper {
+        padding: 10px;
+        background-color: $sectionTitleBackgroundColor;
+        position: sticky;
+        top: 0;
+
+        input {
+            color: $sectionTitleColor;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 1.2em;
+            width: 100%;
+            background-color: #00000000;
+            top: 0;
+            z-index: 100;
+            border: 0;
+        }
+    }
+
+    .cards {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 10px;
+
+        article {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            color: $cardTitleColor;
+            text-align: center;
+            border: 1px solid $bordersColor;
+            border-radius: 5px;
+            background-color: $cardBackgroundColor;
+
+            .cardtitle {
+                padding: 5px;
+                font-size: 15px;
+                border-top: 1px solid $bordersColor;
+            }
+
+            picture {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                flex-grow: 1;
+                padding: 10px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            a {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section {
+        .cards {
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        }
+
+        .title:last-child {
+            border-right: unset;
+        }
+    }
+}

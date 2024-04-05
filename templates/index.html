@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block cards %}
+<section>
+    <div class="cards">
+        {% for card in config.extra.card %}
+        <article>
+            <picture>
+                <img width="100%" height="100%" src="/images/{{card['img']}}">
+            </picture>
+            <div class="cardtitle">{{card['title']}}</div>
+            <a href="https://github.com" rel="noreferrer" target="_blank"></a>
+        </article>
+        {% endfor %}
+    </div>
+</section>
+
+
+{% endblock cards %}
+
+{% block search %}
+
+{% for engine in config.extra.engine %}
+<section>
+    <form class="search-wrapper" 
+    onsubmit="event.preventDefault();location.replace('{{engine['url']}}' + document.getElementsByTagName('input')[{{loop.index - 1}}].value);"
+    >
+        <input type="text" placeholder="Search on {{engine['name']}}">
+    </form>
+</section>
+{% endfor %}
+{% endblock search %}
