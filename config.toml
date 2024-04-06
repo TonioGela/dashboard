@@ -12,24 +12,9 @@ name = "FilmSimili"
 url = "https://filmsimili.it/search/?q="
 
 [[extra.card]]
-title = "Twitter"
-img = "twitter.svg"
-url = "https://twitter.com"
-
-[[extra.card]]
 title = "GitHub"
 img = "github.svg"
 url = "https://github.com/TonioGela"
-
-[[extra.card]]
-title = "Whatsapp"
-img = "whatsapp.svg"
-url = "https://web.whatsapp.com"
-
-[[extra.card]]
-title = "Gmail"
-img = "gmail.svg"
-url = "https://www.gmail.com"
 
 [[extra.card]]
 title = "Telegram"
@@ -37,14 +22,34 @@ img = "telegram.svg"
 url = "https://web.telegram.org"
 
 [[extra.card]]
+title = "YouTube"
+img = "youtube.svg"
+url = "http://youtube.com"
+
+[[extra.card]]
+title = "Amazon"
+img = "amazon.svg"
+url = "https://www.amazon.it"
+
+[[extra.card]]
+title = "Gmail"
+img = "gmail.svg"
+url = "https://www.gmail.com"
+
+[[extra.card]]
 title = "Linkedin"
 img = "linkedin.svg"
 url = "https://www.linkedin.com"
 
 [[extra.card]]
-title = "Netlify"
-img = "netlify.svg"
-url = "https://app.netlify.com/teams/toniogela/sites"
+title = "Twitter"
+img = "twitter.svg"
+url = "https://twitter.com"
+
+[[extra.card]]
+title = "Mastodon"
+img = "mastodon.svg"
+url = "https://hachyderm.io/home"
 
 [[extra.card]]
 title = "Netflix"
@@ -60,21 +65,6 @@ url = "https://www.primevideo.com"
 title = "Disney +"
 img = "disney.svg"
 url = "https://www.disneyplus.com"
-
-[[extra.card]]
-title = "YouTube"
-img = "youtube.svg"
-url = "http://youtube.com"
-
-[[extra.card]]
-title = "Amazon"
-img = "amazon.svg"
-url = "https://www.amazon.it"
-
-[[extra.card]]
-title = "Mastodon"
-img = "mastodon.svg"
-url = "https://hachyderm.io/home"
 
 [[extra.card]]
 title = "Hacker News"
