@@ -17,11 +17,14 @@
 {% endblock cards %}
 
 {% block search %}
-{% for engine in config.extra.engine %}
 <section>
-    <form class="search-wrapper" onsubmit="search('{{engine['url']}}','{{loop.index}}')">
-        <input type="text" placeholder="Search on {{engine['name']}}">
-    </form>
+    <div class="search-wrapper">
+        <input id="search" type="text" placeholder="Search">
+    </div>
+    <div class="buttons">
+        {% for engine in config.extra.engine %}
+        <button class="button" onclick="search('{{engine['url']}}')">{{engine['name']}}</button>
+        {% endfor %}
+    </div>
 </section>
-{% endfor %}
 {% endblock search %}

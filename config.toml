@@ -4,12 +4,24 @@ compile_sass = true
 minify_html = true
 
 [[extra.engine]]
+name = "Github"
+url = "https://github.com/search?q="
+
+[[extra.engine]]
 name = "JustWatch"
 url = "https://www.justwatch.com/it/cerca?q="
 
 [[extra.engine]]
 name = "FilmSimili"
 url = "https://filmsimili.it/search/?q="
+
+[[extra.engine]]
+name = "Youtube"
+url = "https://www.youtube.com/results?search_query="
+
+[[extra.engine]]
+name = "Linkedin"
+url = "https://www.linkedin.com/search/results/all/?keywords="
 
 [[extra.card]]
 title = "GitHub"

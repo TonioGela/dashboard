@@ -98,6 +98,23 @@ section {
             }
         }
     }
+
+    .buttons {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 10px;
+
+        .button {
+            background-color: $sectionTitleBackgroundColor;
+            border: 1px solid $bordersColor;
+            border-radius: 50px;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 24px;
+        }
+    }
 }
 
 @media only screen and (max-width: 768px) {

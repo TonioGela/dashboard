@@ -13,10 +13,7 @@
     <link rel="stylesheet" href="{{ config.base_url }}/dashboard.css" />
     <title>{{ config.title }}</title>
     <script>
-        function search(url, index) {
-            event.preventDefault();
-            location.assign(url + document.getElementsByTagName('input')[index - 1].value);
-        }
+        function search(url) { location.assign(url + document.getElementById('search').value); }
     </script>
     <script async="true" defer="true" src="{{ config.base_url }}/instantpage-5.1.0.js" type="module"></script>
 </head>
