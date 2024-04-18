@@ -4,19 +4,19 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8; X-Content-Type-Options=nosniff">
     <meta name="robots" content="noindex, nofollow">
-    <meta name="revisit-after" content="3 days">
     <meta name="author" content="TonioGela">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <link rel="preload" as="style" href="{{ config.base_url }}/dashboard.css" />
-    <link rel="preload" as="image" href="{{ config.base_url }}/background.svg">
-    <link rel="stylesheet" href="{{ config.base_url }}/dashboard.css" />
+    <link rel="preload" as="style" href="{{ get_url(path='dashboard.css', cachebust=true) }}" />
+    <link rel="preload" as="image" href="{{ get_url(path='background.svg', cachebust=true) }}">
+    <link rel="stylesheet" href="{{ get_url(path='dashboard.css', cachebust=true) }}" />
     <title>{{ config.title }}</title>
     <script>
         function search(url) { location.assign(url + document.getElementById('search').value) }
         function searchBar(e) { if (e.code == "Enter") { search('{{ config.extra.directSearch | safe }}') } }
         function setFocusToTextBox() { document.getElementById('search').focus() }
     </script>
-    <script async="true" defer="true" src="{{ config.base_url }}/instantpage-5.1.0.js" type="module"></script>
+    <script async="true" defer="true" src="{{ get_url(path='instantpage-5.1.0.js', cachebust=true) }}"
+        type="module"></script>
 </head>
 
 <body onload='setFocusToTextBox()' data-instant-allow-external-links>
