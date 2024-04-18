@@ -19,7 +19,7 @@
 {% block search %}
 <section>
     <div class="search-wrapper">
-        <input id="search" type="text" placeholder="Search">
+        <input id="search" type="text" placeholder="Search" onkeypress="searchBar(event)">
     </div>
     <div class="buttons">
         {% for engine in config.extra.engine %}

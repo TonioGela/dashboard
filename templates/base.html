@@ -13,12 +13,14 @@
     <link rel="stylesheet" href="{{ config.base_url }}/dashboard.css" />
     <title>{{ config.title }}</title>
     <script>
-        function search(url) { location.assign(url + document.getElementById('search').value); }
+        function search(url) { location.assign(url + document.getElementById('search').value) }
+        function searchBar(e) { if (e.code == "Enter") { search('{{ config.extra.directSearch | safe }}') } }
+        function setFocusToTextBox() { document.getElementById('search').focus() }
     </script>
     <script async="true" defer="true" src="{{ config.base_url }}/instantpage-5.1.0.js" type="module"></script>
 </head>
 
-<body data-instant-allow-external-links>
+<body onload='setFocusToTextBox()' data-instant-allow-external-links>
     {% block cards %} {% endblock cards %}
     {% block search %} {% endblock search %}
 </body>

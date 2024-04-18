@@ -3,6 +3,8 @@ base_url = "https://dashboard.toniogela.dev"
 compile_sass = true
 minify_html = true
 
+extra.directSearch = 'https://duckduckgo.com/?q='
+
 [[extra.engine]]
 name = "Github"
 url = "https://github.com/search?q="
