@@ -30,7 +30,6 @@ body {
 }
 
 section {
-    border-top: 1px solid $bordersColor;
 
     &:first-of-type {
         border-top: 0;
@@ -41,6 +40,9 @@ section {
         background-color: $sectionTitleBackgroundColor;
         position: sticky;
         top: 0;
+        margin: 10px;
+        border-radius: 5px;
+        border: 1px solid $bordersColor;
 
         input {
             color: $sectionTitleColor;
