@@ -68,7 +68,7 @@ url = "https://hachyderm.io/home"
 [[extra.card]]
 title = "Netflix"
 img = "netflix.svg"
-url = "https://www.netflix.com"
+url = "https://www.netflix.com/browse"
 
 [[extra.card]]
 title = "Prime Video"
