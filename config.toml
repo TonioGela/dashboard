@@ -31,11 +31,6 @@ img = "github.svg"
 url = "https://github.com/TonioGela"
 
 [[extra.card]]
-title = "Telegram"
-img = "telegram.svg"
-url = "https://web.telegram.org"
-
-[[extra.card]]
 title = "YouTube"
 img = "youtube.svg"
 url = "http://youtube.com"
@@ -54,11 +49,6 @@ url = "https://www.gmail.com"
 title = "Linkedin"
 img = "linkedin.svg"
 url = "https://www.linkedin.com"
-
-[[extra.card]]
-title = "Twitter"
-img = "twitter.svg"
-url = "https://twitter.com"
 
 [[extra.card]]
 title = "Mastodon"
