@@ -46,11 +46,6 @@ img = "gmail.svg"
 url = "https://www.gmail.com"
 
 [[extra.card]]
-title = "Linkedin"
-img = "linkedin.svg"
-url = "https://www.linkedin.com"
-
-[[extra.card]]
 title = "Mastodon"
 img = "mastodon.svg"
 url = "https://hachyderm.io/home"
