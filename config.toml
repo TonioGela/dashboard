@@ -10,14 +10,6 @@ name = "Github"
 url = "https://github.com/search?q="
 
 [[extra.engine]]
-name = "JustWatch"
-url = "https://www.justwatch.com/it/cerca?q="
-
-[[extra.engine]]
-name = "FilmSimili"
-url = "https://filmsimili.it/search/?q="
-
-[[extra.engine]]
 name = "Youtube"
 url = "https://www.youtube.com/results?search_query="
 
@@ -36,34 +28,14 @@ img = "youtube.svg"
 url = "http://youtube.com"
 
 [[extra.card]]
-title = "Amazon"
-img = "amazon.svg"
-url = "https://www.amazon.it"
-
-[[extra.card]]
 title = "Gmail"
 img = "gmail.svg"
 url = "https://www.gmail.com"
 
 [[extra.card]]
-title = "Mastodon"
-img = "mastodon.svg"
-url = "https://hachyderm.io/home"
-
-[[extra.card]]
-title = "Netflix"
-img = "netflix.svg"
-url = "https://www.netflix.com/browse"
-
-[[extra.card]]
-title = "Prime Video"
-img = "prime.svg"
-url = "https://www.primevideo.com"
-
-[[extra.card]]
-title = "Disney +"
-img = "disney.svg"
-url = "https://www.disneyplus.com"
+title = "Amazon"
+img = "amazon.svg"
+url = "https://www.amazon.it"
 
 [[extra.card]]
 title = "Hacker News"
@@ -74,3 +46,13 @@ url = "https://news.ycombinator.com"
 title = "Il Post"
 img = "ilpost.svg"
 url = "https://www.ilpost.it"
+
+[[extra.card]]
+title = "Linkedin"
+img = "linkedin.svg"
+url = "https://linkedin.com"
+
+[[extra.card]]
+title = "Mastodon"
+img = "mastodon.svg"
+url = "https://hachyderm.io/home"
