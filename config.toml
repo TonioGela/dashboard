@@ -33,9 +33,14 @@ img = "gmail.svg"
 url = "https://www.gmail.com"
 
 [[extra.card]]
-title = "Amazon"
-img = "amazon.svg"
-url = "https://www.amazon.it"
+title = "Whatsapp"
+img = "whatsapp.svg"
+url = "https://web.whatsapp.com/"
+
+[[extra.card]]
+title = "Telegram"
+img = "telegram.svg"
+url = "https://web.telegram.org/a/"
 
 [[extra.card]]
 title = "Hacker News"
@@ -51,8 +56,3 @@ url = "https://www.ilpost.it"
 title = "Linkedin"
 img = "linkedin.svg"
 url = "https://linkedin.com"
-
-[[extra.card]]
-title = "Mastodon"
-img = "mastodon.svg"
-url = "https://hachyderm.io/home"
