@@ -13,14 +13,3 @@
     {% endfor %}
 </div>
 {% endblock cards %}
-
-{% block search %}
-<div class="search-wrapper">
-    <input id="search" type="text" placeholder="Search" onkeypress="searchBar(event)">
-</div>
-<div class="buttons">
-    {% for engine in config.extra.engine %}
-    <button class="button" onclick="search('{{engine['url']}}')">{{engine['name']}}</button>
-    {% endfor %}
-</div>
-{% endblock search %}

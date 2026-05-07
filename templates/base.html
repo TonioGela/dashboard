@@ -10,18 +10,12 @@
     <link rel="preload" as="image" href="{{ get_url(path='background.svg', cachebust=true) }}">
     <link rel="stylesheet" href="{{ get_url(path='dashboard.css', cachebust=true) }}" />
     <title>{{ config.title }}</title>
-    <script>
-        function search(url) { location.assign(url + document.getElementById('search').value) }
-        function searchBar(e) { if (e.code == "Enter") { search('{{ config.extra.directSearch | safe }}') } }
-        function setFocusToTextBox() { document.getElementById('search').focus() }
-    </script>
     <script async="true" defer="true" src="{{ get_url(path='instantpage-5.1.0.js', cachebust=true) }}"
         type="module"></script>
 </head>
 
 <body onload='setFocusToTextBox()' data-instant-allow-external-links>
     {% block cards %} {% endblock cards %}
-    {% block search %} {% endblock search %}
 </body>
 
 </html>
